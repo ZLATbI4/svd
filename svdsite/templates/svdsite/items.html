@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html lang="ru">
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="assets/css/style-items.css">
+	<link rel="stylesheet" href="{%static '/css/style-index.css'%}">
 	<link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat&display=swap" rel="stylesheet">
 	<title>СВД: Продукция</title>
 </head>
@@ -11,7 +12,7 @@
 	<header class="header">
 		<div class="container">
 			<div class="header__inner"> 
-			<a class="logo" href='index.html'><img src="assets/images/logo.png" width="300px" height="150px" alt="СВД"></a>
+			<a class="logo" href='index.html'><img src="{%static '/images/logo.png'%}" width="300px" height="150px" alt="СВД"></a>
 
 				<nav class="nav">
 					<a class="navigate" href="about.html">о нас</a>
@@ -38,11 +39,11 @@
 				<h2 class="inro_title_sec">Наш основной принцип в работе с заказчиком — качественная работа и доверие. Каждый заказ выполняется по индивидуальной схеме, что позволяет нам не только сохранять старых клиентов, но и постоянно приобретать новых. </h2>
 
 				<div class="partners">
-					<div class="partner"><img src="assets/images/partners/dahua.png" width="150px" height="50px"alt="Dahua" ></div>
-					<div class="partner"><img src="assets/images/partners/hikvision.png" width="150px" height="50px"alt="Hikvision" ></div>
-					<div class="partner"><img src="assets/images/partners/mikrotik.png" width="150px" height="50px"alt="Mikrotik" ></div>
-					<div class="partner"><img src="assets/images/partners/qualvision.png" width="150px" height="50px"alt="Qualvision" ></div>
-					<div class="partner"><img src="assets/images/partners/huawei.png" width="150px" height="50px"alt="Huawei" ></div>
+					<div class="partner"><img src="{%static '/images/partners/dahua.png'%}" width="150px" height="50px"alt="Dahua" ></div>
+					<div class="partner"><img src="{%static '/images/partners/hikvision.png'%}" width="150px" height="50px"alt="Hikvision" ></div>
+					<div class="partner"><img src="{%static '/images/partners/mikrotik.png'%}" width="150px" height="50px"alt="Mikrotik" ></div>
+					<div class="partner"><img src="{%static '/images/partners/qualvision.png'%}" width="150px" height="50px"alt="Qualvision" ></div>
+					<div class="partner"><img src="{%static '/images/partners/huawei.png'%}" width="150px" height="50px"alt="Huawei" ></div>
 				</div>
 
 				

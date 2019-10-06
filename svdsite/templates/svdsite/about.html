@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html lang="ru">
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="assets/css/style-about.css">
+	<link rel="stylesheet" href="{%static '/css/style-index.css'%}">
 	<link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat&display=swap" rel="stylesheet">
 	<title>СВД: О нас</title>
 </head>
@@ -11,7 +12,7 @@
 	<header class="header">
 		<div class="container">
 			<div class="header__inner"> 
-			<a class="logo" href='index.html'><img src="assets/images/logo.png" width="300px" height="150px" alt="СВД"></a>
+			<a class="logo" href='index.html'><img src="{%static '/images/logo.png'%}" width="300px" height="150px" alt="СВД"></a>
 
 				<nav class="nav">
 					<a class="present" href="about.html">о нас</a>
@@ -46,35 +47,35 @@
 
 				<div class="about">
 						<div class="about_item">
-							<img src="assets/images/about/callus.png" width="120px" height="120px"alt="Call us" >
+							<img src="{%static '/images/about/callus.png'%}" width="120px" height="120px"alt="Call us" >
 							<p class="about_comment">Вы связываетесь с нами</p>
 						</div>
 						<div class="about_item">
-							<img src="assets/images/about/arrow.png" width="30px" height="50px"alt="Arrow">
+							<img src="{%static '/images/about/arrow.png'%}" width="30px" height="50px"alt="Arrow">
 						</div>
 						<div class="abot_item">
-							<img src="assets/images/about/car.png" width="180px" height="120px"alt="Car">
+							<img src="{%static '/images/about/car.png'%}" width="180px" height="120px"alt="Car">
 							<p class="about_comment">Мы выезжаем на замер</p>
 						</div>
 						<div class="about_item">
-							<img src="assets/images/about/arrow.png" width="30px" height="50px"alt="Arrow">
+							<img src="{%static '/images/about/arrow.png'%}" width="30px" height="50px"alt="Arrow">
 						</div>
 						<div class="abot_item">
-							<img src="assets/images/about/list.png" width="100px" height="120px"alt="List">
+							<img src="{%static '/images/about/list.png'%}" width="100px" height="120px"alt="List">
 							<p class="about_comment">Составляем смету</p>
 						</div>
 						<div class="about_item">
-							<img src="assets/images/about/arrow.png" width="30px" height="50px"alt="Arrow">
+							<img src="{%static '/images/about/arrow.png'%}" width="30px" height="50px"alt="Arrow">
 						</div>
 						<div class="abot_item">
-							<img src="assets/images/about/tools.png" width="110px" height="120px"alt="Tools">
+							<img src="{%static '/images/about/tools.png'%}" width="110px" height="120px"alt="Tools">
 							<p class="about_comment">Проводим монтаж</p>
 						</div>
 						<div class="about_item">
-							<img src="assets/images/about/arrow.png" width="30px" height="50px"alt="Arrow">
+							<img src="{%static '/images/about/arrow.png'%}" width="30px" height="50px"alt="Arrow">
 						</div>
 						<div class="abot_item">
-							<img src="assets/images/about/hands.png" width="110px" height="120px"alt="Hands">
+							<img src="{%static '/images/about/hands.png'%}" width="110px" height="120px"alt="Hands">
 							<p class="about_comment">Гарантия и обслуживание</p>
 						</div>
 				</div>

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html lang="ru">
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="assets/css/style-index.css">
+	<link rel="stylesheet" href="{%static '/css/style-index.css'%}">
 	<link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat&display=swap" rel="stylesheet">
 	<title>Сигнализация Видеонаблюдение Домофоны</title>
 </head>
@@ -11,7 +12,7 @@
 	<header class="header">
 		<div class="container">
 			<div class="header__inner"> 
-			<a class="logo" href='index.html'><img src="assets/images/logo.png" width="300px" height="150px" alt="СВД"></a>
+			<a class="logo" href='index.html'><img src="{%static '/images/logo.png'%}" width="300px" height="150px" alt="СВД"></a>
 
 				<nav class="nav">
 					<a class="navigate" href="about.html">о нас</a>

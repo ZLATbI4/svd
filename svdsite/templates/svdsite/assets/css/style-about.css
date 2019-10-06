@@ -1,0 +1,218 @@
+body {
+	margin: 0;
+	font-family: 'Monserrat', sans-serif;
+	font-size: 15px;
+	color: #000;
+	line-height: 1.6; 
+	
+}
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+/* Container */
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 100%;
+
+}
+
+/* Header */
+.header {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: top;
+}
+
+/* Intro */
+.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	background: url("../images/intro2.jpg") center no-repeat;
+	opacity: 1;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+}
+
+.intro_title {
+	opacity: 1.3;
+	position: absolute top;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1.1;
+	font-style: italic;
+}
+
+
+.intro_title2 {
+
+	font-size: 16px;
+	font-weight: 700;
+	text-align: left;
+	line-height: 1.3;
+}
+
+.text_bold {
+	font-size: 18px;
+	font-weight: 900;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+
+.intro_inner {
+	padding-top: 150px; 
+	width: 100%;
+	max-width: 880px;
+	margin: 0 auto;
+	color: #000;
+	text-align: center;
+
+}
+
+/* Navigation */
+.nav {
+	padding-top: 30px;
+	font-size: 14px;
+	text-transform: uppercase;
+
+
+}
+
+.present {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 15px;
+	text-decoration: none;
+	color: #000;
+
+
+
+
+	
+}
+
+.navigate {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 15px;
+	text-decoration: none;
+	color: #FFF;
+	transition: color 0.2s linear;
+	position: relative;
+	left: 0;
+	z-index: 1;
+}
+
+.navigate:after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 3px;
+	background-color: #000;
+	position: absolute;
+	opacity: 0;
+	transition: opacity 0.2s linear;
+}
+
+.navigate:hover {
+	color: #000;
+}
+
+.navigate:hover:after {
+	opacity: 1;
+}
+
+/* Logo */
+.logo {
+	position: no-repeat;
+}
+
+/* Button */
+.btn {
+	
+	display: inline-block;
+	vertical-align: top;
+	padding: 8px 30px;
+	border: 3px solid #FFF;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	margin: 30px auto;
+	transition: background 0.2s linear, color 0.2s linear;
+}
+
+.btn:hover {
+	background-color: #FFF;
+	color: #000;
+}
+
+/* About work */
+.about_work {
+	margin: auto;
+	color: #000;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.about_work:before {
+	content: "";
+	display: block;
+	width: 300px;
+	height: 3px;
+	margin: auto;
+	background-color: #000;
+}
+
+.about {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about_item {
+	width: 15%;
+	margin: auto;
+
+}
+
+
+.about_comment {
+	margin: auto;
+	color: #000;
+	text-transform: uppercase;
+	font-size: 10px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 700;
+	width: 90%;
+	
+
+}

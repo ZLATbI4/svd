@@ -7,4 +7,5 @@ urlpatterns = [
     path('items.html', views.items, name='items'),
     path('portfolio.html', views.portfolio, name='portfolio'),
     path('contact.html', views.contact, name='contact'),
+    path('index.html', views.index, name='index'),
 ]

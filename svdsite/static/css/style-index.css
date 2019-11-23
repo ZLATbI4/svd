@@ -1,4 +1,3 @@
-
 body {
 	margin: 0;
 	font-family: 'Monserrat', sans-serif;
@@ -53,11 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-size: cover;
 
 }
-@media screen and (max-height: 500px) {
-	.intro {
-		height: 100%;
-	}
-}
+
 .intro_title {
 	font-size: 70px;
 	font-weight: 700;
@@ -140,4 +135,3 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #FFF;
 	color: #000;
 }
-

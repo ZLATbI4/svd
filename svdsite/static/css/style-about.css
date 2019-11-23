@@ -45,8 +45,6 @@ h1, h2, h3, h4, h5, h6 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 100%;
-	height: auto;
 	background: rgb(151,94,105);
 	background: linear-gradient(180deg, rgba(151,94,105,1) 0%, rgba(220,118,100,1) 34%, rgba(242,164,122,1) 100%);
 	opacity: 1;
